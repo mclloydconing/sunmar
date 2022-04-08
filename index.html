@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+    <style>
+       body{
+           position: relative;
+           font-family: Josefin Sans;
+       }
+
+       .card:hover {
+        transform:scale(1.1);
+        background: linear-gradient(-45deg, #24ff72, #9a4eff);
+        border-radius: 50%;
+        }
+    
+        .nav-item:hover{
+        transform: scale(1.15);
+                }
+        .navbar-brand:hover{
+        transform: scale(1.15);
+                }
+
+        .footer {
+        background: #0b0c0c;
+        padding: 20px 0;
+        }
+        .footer a {
+        color: #70726F;
+        font-size: 20px;
+        padding: 10px;
+        border-right: 1px solid #70726F;
+        transition: all .5s ease;
+        }
+        .footer a:first-child {
+        border-left: 1px solid #70726F;
+        }
+        .footer a:hover {
+        color: white;
+        }
+    </style>
+
+    
+    
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="100" tabindex="0">
+    <h1 id = "home"></h1>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-light bg-light p-0 fixed-top navbar-expand-lg" style="font-family: Josefin Sans; font-size: larger; font-weight: bold; border-style: inset;">
+        <div class="container">
+           
+            <a href="#" class="navbar-brand" style="font-size: large;"><img src="logo-website.png" class="img-responsive logo" alt=""/></a>
+            <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+ 
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="faqs.html" class="nav-link">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link disabled">LOG IN</a>
+                    </li>
+                </ul>
+                
+            </div>
+      
+       
+    
+        </div>
+    </nav>
+    
+    <!-- Showcase -->
+        <section class="text-dark p-5 text-center text-sm-start">
+            <div class="container" style="margin-top: 50px; border: 10px;">
+                <div class="d-sm-flex align-items-center justify-content-between FadeInUp">
+                    <div>
+                        <h1 class="hovering" style="font-weight: bold;">Become a <span class="text-success">successful</span>  entrepreneur with us!</h1>
+                        <h3 class="hovering"><span class="text-primary">The service that you can trust.</span></h3>
+                        <p class="lead my-4 hovering">
+                            <span class="text-primary hovering">Franchising</span> Company that provide services like E-load, Bills Payment, Airline, Bus, Remittance, ATM Withdrawal, Insurance etc.
+                        </p>
+                        <a href="about.html"><button class="btn btn-danger btn-lg hovering"> See Details</button></a>
+                    </div>
+                        <img class="img-fluid p-3 w-50 d-none d-sm-block hovering2" src="sunmarex.jpg" alt="" style="border-radius: 10%;"/>
+                </div>
+            </div>
+        </section>
+
+       
+
+
+
+    <!-- Cards -->
+    <section class=" p-5 text-dark">
+        <div class="container">
+            <div class="row text-center justify-content-center g-4 ">
+                <div class="col-sm-12 col-md-4 col-lg-4 card1 justify-content-between align-items-center">
+                    <div class="card img-fluid align-items-center " style="width: 27rem; border: none; background-color: transparent;">
+                        <img class="card-img-top" src="Offer-yellow-Sunmar.png" alt="Card image cap" style="height: 60%; width: 60%;">
+                        <div class="card-body">
+                          <h4 class="card-title">WHAT WE OFFER</h4>
+                          <p class="card-text">Services right in front of you!</p>
+                          <a href="#offers" class="btn btn-primary">See more</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 col-lg-4 card2 justify-content-between align-items-center">
+                    <div class="card img-fluid align-items-center" style="width: 27rem; border: 0px; background-color: transparent;">
+                        <img class="card-img-top" src="Franchise-Red-Sunmar.png" alt="Card image cap" style="height: 60%; width: 60%;">
+                        <div class="card-body">
+                          <h5 class="card-title">HOW TO FRANCHISE</h5>
+                          <p class="card-text">Learn and start franchising now!</p>
+                          <a href="#franchise" class="btn btn-primary">See more</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4 col-lg-4 card3 justify-content-between align-items-center">
+                    <div class="card img-fluid align-items-center" style="width: 27rem; border: 0px; background-color: transparent;">
+                        <img class="card-img-top" src="Contact-Blue-Sunmar.png" alt="Card image cap" style="height: 60%; width: 60%;">
+                        <div class="card-body">
+                          <h5 class="card-title">CONTACT US</h5>
+                          <p class="card-text">Get in touch with us!</p>
+                          <a href="#contact" class="btn btn-primary">See more</a>
+                        </div>
+                      </div>
+                </div> 
+            </div>
+
+        </div><h5 id="services"></h5>
+    </section>
+    
+    <!-- Boxes -->
+    <section class="text-light bg-dark p-5  text-sm-start">
+        <div class="container card1">
+            <div class="row text-center py-4 card1">
+                <h1>Our Services</h1>
+            </div>
+            <div class="row justify-content-center"  style="margin-top: .5in;">
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                    <h3><span class="badge">1.</span>Electronic Loading</h3>
+                    <p>Be able to dispense over 300 types and 
+                        denominations of e-loads and 
+                        e-PINS , prepaid internet, online gaming,
+                        satellite cards and other types 
+                        of prepaid products.</p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 px-5"><img class="img-fluid" src="Eload.png" alt=""/></div>
+            </div>
+            
+            <div class="row justify-content-center py-5">
+                    <div class="col-sm-12 col-md-4 col-lg-4 order-lg-2 ">
+                        <h3><span class="badge">2.</span>Bills Payment</h3>
+                     <p>SunmarExpress Bills Payment Center 
+                        provides to the public a reliable,
+                        dependable and convenient bills payment 
+                        service.  </p>
+                    </div>
+                <div class="col-sm-12 col-md-4 col-lg-4  px-5 order-lg-1 "><img class="img-fluid" src="Eload.png" alt=""/></div>
+                </div>
+                <div class="row justify-content-center py-5">
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                        <h3><span class="badge">3.</span>Airline Booking</h3>
+                        <p>Book your flight in one go to over 70 
+                            local and international destinations!</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 col-lg-4 px-5"><img class="img-fluid" src="Eload.png" alt=""/></div>
+                </div> 
+        </div>
+        <h1 id="offers"></h1> 
+    </section>
+
+     <!-- Carousel -->
+     <section class="text-light bg-dark text-sm-start">
+        <div class="container py-5 card1">
+            <h1 class="text-center card2">OFFERS</h1>
+            <div class="row">
+                <div class="col">
+                    <div id="carouselExampleInterval" class="carousel slide"  data-bs-ride="carousel" >
+                        <div class="carousel-inner" role="listbox" style="border-radius: 3%;">
+                          <div class="carousel-item active" data-bs-interval="3000">
+                            <img  src="ad1.png" class="d-block w-100" alt="..."  >
+                          </div>
+                          <div class="carousel-item" data-bs-interval="3000">
+                            <img  src="ad7.png" class="d-block w-100" alt="..." > 
+                          </div>
+                          <div class="carousel-item" data-bs-interval="3000">
+                            <img  src="ad2.png" class="d-block w-100" alt="..." > 
+                          </div>
+                          <div class="carousel-item" data-bs-interval="3000">
+                            <img  src="ad3.png" class="d-block w-100" alt="..." > 
+                          </div>
+                          <div class="carousel-item" data-bs-interval="3000">
+                            <img  src="ad4.png" class="d-block w-100" alt="..." > 
+                          </div>
+                          <div class="carousel-item" data-bs-interval="3000">
+                            <img  src="ad5.png" class="d-block w-100" alt="..." > 
+                          </div>
+                          <div class="carousel-item" data-bs-interval="3000">
+                            <img  src="ad6.png" class="d-block w-100" alt="..." > 
+                          </div>
+            
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      
+                </div></div>  
+                <h1 id="franchise"></h1>
+            </div>
+        </div>
+      
+    </section>
+
+    <!-- HOW TO -->
+    <section class="text-dark bg-light p-5">
+        <div class="container justify-content-center">
+            <h1 class="text-center card1" style="margin-top: .5in;">HOW TO FRANCHISE</h1>
+            <div class="row card2" style="margin-bottom: 15px;">
+                <p style="text-indent: 1in; text-align: justify;">SunmarExpress is a franchise business that is into low investment high profit, fast return on investment e-commerce business. The SunmarExpress franchise business includes Bayad Bills Payment Center, Money Remittance local and international, Airline Ticketing local and international, Eload - Prepaid Load, Travel and Tours, Courier Services, Health Products Discounts, ATM Withdrawal and other online based services. SunmarExpress business a Business One Stop Shop (BOSS) that is ready to operate, fully set-up franchise business in the Philippines. Check our Franchise Packages</p>
+            </div> 
+    
+            <div class="row card2" style="margin-bottom: 15px;">
+               <h4>SunmarExpress will guide you all the way from application to your successful business transactions.</h4>
+            </div>
+            <p class="card3">Below are the steps on how to successfully franchise with SunmarExpress:</p>
+            <div class="row card3" style="margin-bottom: 15px; text-indent: .5in;">
+                <p><span style="font-weight: bold;">Step 1:</span>  Attend our 1 hour free Orientation</p>
+                <p><span style="font-weight: bold;">Step 2:</span> Submit proposed location ( Subject for Approval)</p>
+                <p><span style="font-weight: bold;">Step 3:</span> Settle Payment to lock desired location</p>
+                <p><span style="font-weight: bold;">Step 4:</span> Sign MOA or Contract</p>
+                <p><span style="font-weight: bold;">Step 5:</span> Submit Requirements for Training Schedule</p>
+                <p><span style="font-weight: bold;">Step 6:</span> Attend All Trainings</p>
+                <p><span style="font-weight: bold;">Step 7:</span> Operate</p>
+            </div>
+            <h1 id="contact"></h1>
+        </div>
+    </section>
+    
+    
+        
+    
+    
+     <!-- Info -->
+     <section class="text-light bg-dark p-5">
+         <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="container card1">
+                                    <div class="row justify-content-center py-2">
+                                        <div class="col">
+                                            <h4>CONTACT US</h4>
+                                            <p>309 Medalla Bldg. Cubao, Quezon City, Philippines</p>
+                                            <p>Suite A. Strata 2000 Bldg. Emerald Avenue Ortigas Center Pasig City</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row justify-content-center py-2" style="margin-bottom: 10px;">
+                                            <div class="col">
+                                            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                                </svg>  941-7500</p> 
+                                            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                                                <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+                                                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                                              </svg>  0932-6009188</p>
+                                            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                                                <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+                                                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                                              </svg>  0922-4923890</p>
+                                            </div>
+                                        </div>
+                                    </div>  
+                        </div>
+
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                            <div class="container card2 ">
+                                    <div class="row  justify-content-center">
+                                        <div class="col">
+                                            <h4>Our Mission</h4>
+                                            <p>To provide quality products and services to our clients that will help them save their time, maximize their effort and make their money worth it. To bring closer to them the services they need and make it more convenient.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row  justify-content-center">
+                                            <div class="col">
+                                                <h4>Our Vision</h4>
+                                            <p>To become number one Business One Stop Shop (BOSS) Worldwide that gives quality service to the people.  </p>
+                                            </div>
+                                        </div>
+                                    
+                                    </div>  
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4">
+                           
+                                    <div class="row  justify-content-center card1">
+                                        <img class="img FadeInUp py-5" src="logo-website.png" alt="" />
+                                    </div>  
+                        </div>
+                    
+                    
+                </div>
+            </div>
+    </section>
+
+   
+        <div class="container-fluid">
+            <div style="overflow:hidden;max-width:100%;width:100%;height:500px;"><div id="display-googlemap" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=309+Medalla+Bldg.+Cubao,+Quezon+City,+Philippines&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="googlehtml" href="https://www.embed-map.com" id="grab-mapdata">https://www.embed-map.com</a><style>#display-googlemap img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style></div>
+        </div>
+    
+
+    
+   
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <footer class="footer">
+      <div class="container text-center">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-google-plus"></i></a>
+        <a href="#"><i class="fa fa-skype"></i></a>
+      </div>
+    </footer>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', event => 
+        {
+    
+     // Activate Bootstrap scrollspy on the main nav element
+        const navbar = document.body.querySelector('#navbar');
+        if (navbar) {
+        new bootstrap.ScrollSpy(document.body, 
+        {
+        target:'#navbar', offset: 74,
+        });
+                    }
+        });
+        
+    //Refresh
+        var dataSpyList = [].slice.call(document.querySelectorAll('[data-bs-spy="scroll"]'))
+        dataSpyList.forEach(function (dataSpyEl) {
+        bootstrap.ScrollSpy.getInstance(dataSpyEl)
+        .refresh()
+    })
+    
+    var scrollSpyContentEl = document.getElementById('content')
+    var scrollSpy = bootstrap.ScrollSpy.getOrCreateInstance(scrollSpyContentEl) // Returns a Bootstrap scrollspy instance
+        </script>
+       
+       <script type = "text/javascript">
+
+        window.addEventListener('scroll', reveal);
+        function reveal(){
+            var fade = document.querySelectorAll('.card1');
+                for(var i = 0; i < fade.length; i++){
+                    var windowheight = window.innerHeight;
+                    var revealtop = fade[i].getBoundingClientRect().top;
+                    /*adjust mo nalang to for response time. 200 yung base value.
+                    <=200 faster detection | >200 slower detection*/
+                    var revealpoint = 100;
+                    
+                    if (revealtop < windowheight - revealpoint){
+                        fade[i].classList.add('active');
+                        }
+                    else{
+                        fade[i].classList.remove('active');
+                    }
+                }
+                var fade = document.querySelectorAll('.card2');
+                for(var i = 0; i < fade.length; i++){
+                    var windowheight = window.innerHeight;
+                    var revealtop = fade[i].getBoundingClientRect().top;
+                    /*adjust mo nalang to for response time. 200 yung base value.
+                    <=200 faster detection | >200 slower detection*/
+                    var revealpoint = 100;
+                    
+                    if (revealtop < windowheight - revealpoint){
+                        fade[i].classList.add('active');
+                        }
+                    else{
+                        fade[i].classList.remove('active');
+                    }
+                }
+                var fade = document.querySelectorAll('.card3');
+                for(var i = 0; i < fade.length; i++){
+                    var windowheight = window.innerHeight;
+                    var revealtop = fade[i].getBoundingClientRect().top;
+                    /*adjust mo nalang to for response time. 200 yung base value.
+                    <=200 faster detection | >200 slower detection*/
+                    var revealpoint = 100;
+                    
+                    if (revealtop < windowheight - revealpoint){
+                        fade[i].classList.add('active');
+                        }
+                    else{
+                        fade[i].classList.remove('active');
+                    }
+                }
+            }
+        </script>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    
+
+
+</body>
+</html>

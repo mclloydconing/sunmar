@@ -1,0 +1,238 @@
+
+.logo{
+	height: 60px;
+	padding-right: 15px;
+	padding-left: 5px;
+}
+
+
+.hovering 
+{  
+    animation-name: hover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+}
+.hovering2 
+{  
+    animation-name: hover;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+}
+
+@keyframes hover
+{
+    from { transform: translate(0,  0px) scaleX(1); }
+    50%  { transform: translate(0, 20px) scaleX(1); }
+    to   { transform: translate(0, 0px) scaleX(1); }    
+}
+
+.card4{
+	animation: fadetoleft 1.2s both;
+	-moz-animation: fadetoleft 1.2s both;
+	-o-animation: fadetoleft 1.2s both;
+	-webkit-animation: fadetoleft 1.2s both;
+	animation-delay: 0.3s;
+}
+
+.card5{
+	animation: fadetoleft 1.2s both;
+	-moz-animation: fadetoleft 1.2s both;
+	-o-animation: fadetoleft 1.2s both;
+	-webkit-animation: fadetoleft 1.2s both;
+	animation-delay: 0.4s;
+}
+
+
+.card6{
+	animation: fadetoleft 1.2s both;
+	-moz-animation: fadetoleft 1.2s both;
+	-o-animation: fadetoleft 1.2s both;
+	-webkit-animation: fadetoleft 1.2s both;
+	animation-delay: 0.5s;
+}
+
+
+.card7{
+	animation: fadetoleft 1.2s both;
+	-moz-animation: fadetoleft 1.2s both;
+	-o-animation: fadetoleft 1.2s both;
+	-webkit-animation: fadetoleft 1.2s both;
+	animation-delay: 0.6s;
+}
+
+
+.card8{
+	animation: fadetoleft 1.2s both;
+	-moz-animation: fadetoleft 1.2s both;
+	-o-animation: fadetoleft 1.2s both;
+	-webkit-animation: fadetoleft 1.2s both;
+	animation-delay: 0.7s;
+}
+
+
+
+
+
+.FadeInUp{
+	background-size: cover;
+	background-position: center;
+	animation: fadeinup 2s both;
+	-moz-animation: fadeinup 1.5s both;
+	-o-animation: fadeinup 1.5s both;
+	-webkit-animation: fadeinup 1.5s both;
+}
+
+
+.card1{
+	background-size: cover;
+	background-position: center;
+	transform: translateY(70px);
+	-moz-transform: translateY(70px);
+	-o-transform: translateY(70px);
+	-webkit-transform: translateY(70px);
+	opacity: 0;
+	transition: all 1.2s ease;
+}
+.card2{
+	background-size: cover;
+	background-position: center;
+	transform: translateY(70px);
+	-moz-transform: translateY(70px);
+	-o-transform: translateY(70px);
+	-webkit-transform: translateY(70px);
+	opacity: 0;
+	transition: all 1.2s ease;
+}
+.card3{
+	background-size: cover;
+	background-position: center;
+	transform: translateY(70px);
+	-moz-transform: translateY(70px);
+	-o-transform: translateY(70px);
+	-webkit-transform: translateY(70px);
+	opacity: 0;
+	transition: all 1.2s ease;
+}
+
+.card1.active{
+	animation: fadetoleft 1.2s both;
+	-moz-animation: fadetoleft 1.2s both;
+	-o-animation: fadetoleft 1.2s both;
+	-webkit-animation: fadetoleft 1.2s both;
+	animation-delay: 0.3s;
+}
+.card2.active{
+	animation: fadetoleft 1.2s both;
+	-moz-animation: fadetoleft 1.2s both;
+	-o-animation: fadetoleft 1.2s both;
+	-webkit-animation: fadetoleft 1.2s both;
+	animation-delay: 0.5s;
+}
+.card3.active{
+	animation: fadetoleft 1.2s both;
+	-moz-animation: fadetoleft 1.2s both;
+	-o-animation: fadetoleft 1.2s both;
+	-webkit-animation: fadetoleft 1.2s both;
+	animation-delay: 0.7s;
+}
+
+@keyframes fadeinup{
+	0%{
+		opacity: 0;
+		transform: translateY(50px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@-moz-keyframes fadeinup{
+	0%{
+		opacity: 0;
+		-moz-transform: translateY(50px);
+	}
+	100%{
+		opacity: 1;
+		-moz-transform: translateY(0);
+	}
+}
+
+@-o-keyframes fadeinup{
+	0%{
+		opacity: 0;
+		-o-transform: translateY(50px);
+	}
+	100%{
+		opacity: 1;
+		-o-transform: translateY(0);
+	}
+}
+
+@-webkit-keyframes fadeinup{
+	0%{
+		opacity: 0;
+		-webkit-transform: translateY(50px);
+	}
+	100%{
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+}
+
+.FadeToLeft{
+	background-size: cover;
+	background-position: center;
+	animation: fadetoleft 1.2s both;
+	-moz-animation: fadetoleft 1.2s both;
+	-o-animation: fadetoleft 1.2s both;
+	-webkit-animation: fadetoleft 1.2s both;
+}
+
+@keyframes fadetoleft{
+	0%{
+		opacity: 0;
+		transform: translateX(150px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@-moz-keyframes fadetoleft{
+	0%{
+		opacity: 0;
+		-moz-transform: translateX(150px);
+	}
+	100%{
+		opacity: 1;
+		-moz-transform: translateY(0);
+	}
+}
+
+@-o-keyframes fadetoleft{
+	0%{
+		opacity: 0;
+		-o-transform: translateX(150px);
+	}
+	100%{
+		opacity: 1;
+		-o-transform: translateY(0);
+	}
+}
+
+@-webkit-keyframes fadetoleft{
+	0%{
+		opacity: 0;
+		-webkit-transform: translateX(150px);
+	}
+	100%{
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+}
